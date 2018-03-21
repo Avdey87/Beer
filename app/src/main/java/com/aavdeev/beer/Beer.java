@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 public class Beer extends Activity {
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +23,7 @@ public class Beer extends Activity {
         Spinner color = (Spinner) findViewById(R.id.color);
         //Получить вариант, выбранный в Spinner
         String beerType = String.valueOf(color.getSelectedItem());
-        //Вывести выбранный вариант
+        //Вывести выбранный вариантФ
         brands.setText(beerType);
     }
 }
