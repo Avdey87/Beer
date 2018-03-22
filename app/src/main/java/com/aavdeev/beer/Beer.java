@@ -26,7 +26,7 @@ public class Beer extends Activity {
         Spinner color = (Spinner) findViewById(R.id.color);
         //Получить вариант, выбранный в Spinner
         String beerType = String.valueOf(color.getSelectedItem());
-       //Получаем рекомендации из класса BeerExpert
+        //Получаем рекомендации из класса BeerExpert
 
         //Получеам контейнер List с сортами пива
         List<String> brandlist = expert.getBrands(beerType);
